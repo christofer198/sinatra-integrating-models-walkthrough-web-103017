@@ -6,4 +6,4 @@
 
 <h2>Consonants: <%= @analysis.count_of_consonants %></h2>
 
-<h2>Most Common Letter: <%= @analysis.most_used_letter.keys.each{|x| x}[0].capitalize %>, used <%= @analysis.most_used_letter.values.each{|x| x}[0].to_i %> times</h2>
+<h2>Most Common Letter: <%= @analysis.most_used_letter.keys[0].capitalize %>, used <%= @analysis.most_used_letter.values[0].to_i %> times</h2>
